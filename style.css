@@ -1,0 +1,34 @@
+h1 {
+    color: rgba(0, 0, 255, 0.499);
+}
+
+#greenElement {
+    color: green;
+}
+
+.bgBlue {
+    background-color: blue;
+}
+
+#secondPara {
+    color: cyan;
+    background-color: black;
+}
+
+footer,
+span {
+    background-color: brown;
+}
+
+p {
+    border: 3px solid black;
+    font-style: italic;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 100px;
+    line-height: 5em;
+    font-weight: lighter;
+    /* px = 1/96th of inch */
+}

@@ -1,0 +1,38 @@
+/* padding margin box model */
+
+/* margin, padding (left, top ,bottom ,right ) */
+
+.container {
+    background-color: rgb(100,100,100);
+    border: 3px solid rgb(64, 6, 119);
+    /* margin: 30px; */
+
+    margin: 50px 450px;
+    /* padding: top right bottom left; */
+    padding: 23px, 56px, 6px, 78px;
+
+    /* padding: y(top/bottom) x(left/right); */
+    /* padding: y(top/bottom) x(left/right); */
+
+    border-radius: 30px;
+    /* width: 533px; */
+    box-sizing: border-box;
+
+}
+
+h3,
+p {
+    text-align: center;
+}
+
+body{
+    background-color: rgb(37 16 16);
+}
+
+/* * is called universal selector in css */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */

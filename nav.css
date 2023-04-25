@@ -1,0 +1,44 @@
+/* basic navigation bar */
+
+.navbar {
+    background-color: rgb(35, 32, 32);
+    border-radius: 40px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 13px 20px;
+    padding-top: 5px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search {
+    float: right;
+    color: white;
+    margin: 15px 70px;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px 17px;
+    width: 135px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(17, 2, 29);
+}
